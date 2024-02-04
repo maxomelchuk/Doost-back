@@ -1,0 +1,35 @@
+local:
+  http:
+    host: 'localhost'
+    port: 3001
+  db:
+    host: 'localhost'
+    port: 20000
+    database: 'doost'
+
+dev:
+  http:
+    host: 'localhost'
+    port: 3000
+  db:
+    host: 'localhost'
+    port: 20000
+    database: 'doost'
+
+stage:
+  http:
+    host: 'localhost'
+    port: 3000
+  db:
+    host: 'localhost'
+    port: 20000
+    database: 'doost'
+
+prod:
+  http:
+    host: 'localhost'
+    port: 3000
+  db:
+    host: 'localhost'
+    port: 20000
+    database: 'doost'
